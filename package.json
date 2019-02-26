@@ -1,0 +1,27 @@
+{
+  "name": "tun-ts",
+  "version": "1.0.0",
+  "description": "Cross-platform TUN device",
+  "keywords": [
+    "tun"
+  ],
+  "author": "Matt Insler",
+  "repository": "mattinsler/tun-ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "gypfile": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mutexify": "1.2.0",
+    "nan": "2.12.1"
+  },
+  "devDependencies": {
+    "@types/mutexify": "1.2.0",
+    "@types/node": "11.9.4",
+    "ts-node": "8.0.2",
+    "typescript": "3.3.3333"
+  }
+}
